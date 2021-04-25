@@ -16,10 +16,10 @@ public class User {
     private Long userId;
 
     @Column(name = "first_name")
-    private String firstNameUser;
+    private String userFirstName;
 
     @Column(name = "last_name")
-    private String lastNameUser;
+    private String userLastName;
 
     @Column(name = "login")
     private String login;
@@ -33,7 +33,4 @@ public class User {
     inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Collection<Role> roles;
 
-    @OneToOne
-    @JoinColumn(name = "address")
-    private Address address;
 }

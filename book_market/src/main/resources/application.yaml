@@ -31,3 +31,5 @@ logging:
     file: '%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n'
     console: '%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M - %msg%n'
 
+jwt:
+  secret: dfgopkf8dfgui43m,re4=54l54m,rgf4we0943jh542bc 234=54-696=56=-6509

@@ -1,0 +1,81 @@
+drop table if exists users cascade;
+create table users(
+                      id bigserial primary key,
+                      first_name varchar(255) not null,
+                      last_name varchar(255) not null,
+                      login varchar(255) not null,
+                      password varchar(255) not null,
+                      phone_number varchar(255),
+                      password_2 varchar(255) not null
+);
+
+INSERT INTO users VALUES (1,
+                          'Иванов',
+                          'Сергей',
+                          'ivanov_sergey@mail.com',
+                          '$2a$10$8XBuvrPULsABNRyTkCZ8we5pm7pHU2DvPu5s6uU6KNQYvVKVEV5my',
+                          '+79503743875',
+                          'manager1');
+INSERT INTO users VALUES (2,
+                          'Петров',
+                          'Иван',
+                          'petrov_ivan@mail.com',
+                          '$2a$10$fChzOczKQZ2BPCAfqfCwhOUv6HO1rDJTQjFNjoF8nCgrs03ujfGw2',
+                          '+79303743875',
+                          'admin1');
+INSERT INTO users VALUES (3,
+                          'Смирнов',
+                          'Виктор',
+                          'smirnov_viktor@mail.com',
+                          '$2a$10$xLrvGmda4ahzFv5g15v2uukfBy6h5Csw3OwbVnfTUrKjY8XzexdNq',
+                          '+79373743875',
+                          'manager2');
+INSERT INTO users VALUES (4,
+                          'Бобров',
+                          'Семен',
+                          'bobrov_semen@mail.com',
+                          '$2a$10$0qu4IkwBM8IR/pDsJcrxbeS.CBQdB3uhOH/w4zB/2qVG9iq.VA0Ru',
+                          '+79673747875',
+                          'admin2');
+INSERT INTO users VALUES (5,
+                          'Сидоров',
+                          'Антон',
+                          'sidorov_anton@mail.com',
+                          '$2a$10$4LHMOl0KrOFIeYMuWixdz.lrr0lCzkLANeJWYrrtkroywKC4GzcvS',
+                          '+79573547875',
+                          'superadmin');
+INSERT INTO users VALUES (6,
+                          'Антонов',
+                          'Дмитрий',
+                          'antonov_dmitry@mail.com',
+                          '$2a$10$ydk4w.RD1Mr1s/aZdCkEP.BGkU1gm7mczhL1R8eoVZZxZA5qiaPOu',
+                          '+79575677875',
+                          'user1');
+INSERT INTO users VALUES (7,
+                          'Михаил',
+                          'Андреев',
+                          'mihail_andreev@mail.com',
+                          '$2a$10$Uz0pI6TlxQ1fsbORyuZSFuTk039UansbecUPL6IeXOwYgvphsrXZe',
+                          '+79585677974',
+                          'user2');
+INSERT INTO users VALUES (8,
+                          'Василий',
+                          'Сергеев',
+                          'vasiliy_sergeev@mail.com',
+                          '$2a$10$4LC12TYaK4oPs2xBMAH/T.ynxShhg7dGQuF0NF//ftvZg9P4Paq0.',
+                          '+79585677974',
+                          'user3');
+INSERT INTO users VALUES (9,
+                          'Андрей',
+                          'Максимов',
+                          'andrei_maksimov@mail.com',
+                          '$2a$10$OugPzm.PKy8wyDqQ98sf/uo23umT6uAT/C6xmFygIkCyaouQVrVsO',
+                          '+79889607974',
+                          'user4');
+INSERT INTO users VALUES (10,
+                          'Виталий',
+                          'Анисимов',
+                          'vitaliy_anisimov@mail.com',
+                          '$2a$10$8KKxEAnzqsWJgFz7Xnk6PugPqxJv8esUrg63qR47AOYGJ8GAaGSku',
+                          '+79389107954',
+                          'user5');
