@@ -12,7 +12,7 @@ public class OrderItemDto {
     public OrderItemDto(OrderItem orderItem) {
         this.bookId = orderItem.getBook().getBookId();
         this.bookTitle = orderItem.getTitle();
-        this.pricePerBook = orderItem.getPricePerProduct();
+        this.pricePerBook = orderItem.getPricePerBook();
         this.price = orderItem.getTotalPrice();
         this.quantity = orderItem.getQuantity();
     }

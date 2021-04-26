@@ -1,4 +1,4 @@
-package ru.geekbrains.book.market.dto;
+package ru.geekbrains.book.market.jwt;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

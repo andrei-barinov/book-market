@@ -30,8 +30,8 @@ public class OrderItem {
     @Column(name="quantity")
     private Integer quantity;
 
-    @Column(name="price_per_product")
-    private Integer pricePerProduct;
+    @Column(name="price_per_book")
+    private Integer pricePerBook;
 
     @Column(name="total_price")
     private Integer totalPrice;
@@ -43,4 +43,21 @@ public class OrderItem {
     @UpdateTimestamp
     @Column(name = "updated_at")
     private LocalDateTime bookUpdatedAt;
+
+    public OrderItem(Book book){
+        this.book = book;
+        this.quantity = 1;
+        this.pricePerBook = book.getBookPrice();
+        this.totalPrice = this.pricePerBook;
+    }
+
+    public void incrementQuantity(){
+        quantity++;
+        totalPrice = quantity * pricePerBook;
+    }
+
+    public void decrementQuantity(){
+        quantity--;
+        totalPrice = quantity * pricePerBook;
+    }
 }

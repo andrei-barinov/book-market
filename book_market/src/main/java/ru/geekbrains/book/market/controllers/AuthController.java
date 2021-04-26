@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import ru.geekbrains.book.market.beans.JwtTokenUtil;
-import ru.geekbrains.book.market.dto.JwtRequest;
-import ru.geekbrains.book.market.dto.JwtResponse;
+import ru.geekbrains.book.market.jwt.JwtRequest;
+import ru.geekbrains.book.market.jwt.JwtResponse;
 import ru.geekbrains.book.market.entities.ErrorEntity;
 import ru.geekbrains.book.market.services.UserService;
 
