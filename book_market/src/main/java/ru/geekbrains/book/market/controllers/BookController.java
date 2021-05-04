@@ -1,11 +1,14 @@
 package ru.geekbrains.book.market.controllers;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 import ru.geekbrains.book.market.dto.BookDto;
 import ru.geekbrains.book.market.entities.Book;
 import ru.geekbrains.book.market.exception.BookNotFoundException;
 import ru.geekbrains.book.market.services.BookService;
+import ru.geekbrains.book.market.specifications.BookSpecifications;
 
 import java.util.List;
 
@@ -15,10 +18,10 @@ import java.util.List;
 public class BookController {
     private final BookService bookService;
 
-    @GetMapping
-    public List<BookDto> findAllBook(){
-        return bookService.findAll();
-    }
+//    @GetMapping
+//    public List<BookDto> findAllBook(){
+//        return bookService.findAll();
+//    }
 
     @GetMapping("/{id}")
     public BookDto findBookById(@PathVariable Long id){
@@ -40,6 +43,17 @@ public class BookController {
     @DeleteMapping("/{id}")
     public void deleteBookById(@PathVariable Long id){
          bookService.deleteById(id);
+    }
+
+    @GetMapping
+    public Page<BookDto> findAllBooks(
+            @RequestParam MultiValueMap<String, String> params,
+            @RequestParam(name = "p", defaultValue = "1") Integer page
+    ) {
+        if (page < 1) {
+            page = 1;
+        }
+        return bookService.findAll(BookSpecifications.build(params), page, 4);
     }
 
 }

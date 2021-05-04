@@ -2,6 +2,9 @@ package ru.geekbrains.book.market.services;
 
 import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import ru.geekbrains.book.market.dto.BookDto;
 import ru.geekbrains.book.market.entities.Book;
@@ -38,5 +41,9 @@ public class BookService {
 
     public void deleteById(Long id){
         bookRepository.deleteById(id);
+    }
+
+    public Page<BookDto> findAll(Specification<Book> spec, int page, int pageSize) {
+        return bookRepository.findAll(spec, PageRequest.of(page - 1, pageSize)).map(BookDto::new);
     }
 }
