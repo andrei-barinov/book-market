@@ -28,6 +28,10 @@ public class BookService {
         return bookRepository.findAll().stream().map(BookDto::new).collect(Collectors.toList());
     }
 
+    public List<Book> findAllBook(){
+        return bookRepository.findAll();
+    }
+
     public Book save(Book book){
         return bookRepository.save(book);
     }

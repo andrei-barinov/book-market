@@ -29,7 +29,7 @@ public class JwtTokenUtil {
         claims.put("roles", roles);
 
         Date issueDate = new Date();
-        Date expired = new Date(issueDate.getTime() + 30 * 60 * 1000);
+        Date expired = new Date(issueDate.getTime() + 60 * 60 * 1000);
 
         return Jwts.builder()
                 .setClaims(claims)
