@@ -41,6 +41,6 @@ public class Book {
     @JoinTable(name = "category_book",
             joinColumns = @JoinColumn(name = "book_id"),
             inverseJoinColumns = @JoinColumn(name = "category_id"))
-    private Collection<Author> bookCategories;
+    private Collection<Category> bookCategories;
 
 }

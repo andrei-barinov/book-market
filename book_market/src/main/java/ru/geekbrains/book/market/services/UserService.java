@@ -31,7 +31,7 @@ public class UserService implements UserDetailsService {
     public UserDetails loadUserByUsername(String userLogin) throws UsernameNotFoundException {
 
         User user = findByUserLogin(userLogin).orElseThrow(
-                () -> new UsernameNotFoundException("Пользователь с таким логин не найден"));
+                () -> new UsernameNotFoundException("Пользователь с данным логин не найден"));
 
         return new org.springframework.security.core.userdetails.User(user.getLogin(), user.getPassword(),
                 mapRolesToAuthorities(user.getRoles()));

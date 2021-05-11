@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "orders_items")
+@Table(name = "order_items")
 @Data
 public class OrderItem {
     @Id
@@ -44,20 +44,11 @@ public class OrderItem {
     @Column(name = "updated_at")
     private LocalDateTime bookUpdatedAt;
 
-    public OrderItem(Book book){
-        this.book = book;
-        this.quantity = 1;
-        this.pricePerBook = book.getBookPrice();
-        this.totalPrice = this.pricePerBook;
-    }
-
-    public void incrementQuantity(){
-        quantity++;
-        totalPrice = quantity * pricePerBook;
-    }
-
-    public void decrementQuantity(){
-        quantity--;
-        totalPrice = quantity * pricePerBook;
+    public OrderItem(CartItem cartItem) {
+        this.book = cartItem.getBook();
+        this.title = cartItem.getTitle();
+        this.quantity = cartItem.getQuantity();
+        this.pricePerBook = cartItem.getPricePerBook();
+        this.totalPrice = cartItem.getPrice();
     }
 }

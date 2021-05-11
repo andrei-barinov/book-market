@@ -29,6 +29,12 @@ public class BookController {
                 String.format("Не найдена книга с индитификатором %s", id)));
     }
 
+//    @GetMapping("/{id}")
+//    public Book findBookById(@PathVariable Long id){
+//        return bookService.findBookById(id).orElseThrow(() -> new BookNotFoundException(
+//                String.format("Не найдена книга с индитификатором %s", id)));
+//    }
+
     @PostMapping
     public Book createNewBook(@RequestBody Book book){
         book.setBookId(null);

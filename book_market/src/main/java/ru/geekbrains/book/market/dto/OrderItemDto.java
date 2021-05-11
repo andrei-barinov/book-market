@@ -1,7 +1,9 @@
 package ru.geekbrains.book.market.dto;
 
+import lombok.Data;
 import ru.geekbrains.book.market.entities.OrderItem;
 
+@Data
 public class OrderItemDto {
     private Long bookId;
     private String bookTitle;

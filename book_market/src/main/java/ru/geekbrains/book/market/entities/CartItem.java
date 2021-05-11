@@ -22,7 +22,7 @@ public class CartItem {
 
     private Integer quantity;
 
-    private Integer pricePerProduct;
+    private Integer pricePerBook;
 
     private Integer price;
 
@@ -30,7 +30,7 @@ public class CartItem {
         this.book = book;
         this.title = book.getBookTitle();
         this.quantity = 1;
-        this.pricePerProduct = book.getBookPrice();
-        this.price = pricePerProduct;
+        this.pricePerBook = book.getBookPrice();
+        this.price = pricePerBook;
     }
 }
