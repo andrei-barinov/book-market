@@ -8,7 +8,7 @@ import org.springframework.data.redis.core.index.Indexed;
 
 @Data
 @NoArgsConstructor
-@RedisHash("cart_item")
+@RedisHash("cart_items")
 public class CartItem {
     @Id
     private Long id;

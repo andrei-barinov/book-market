@@ -6,11 +6,12 @@ import ru.geekbrains.book.market.entities.Cart;
 import ru.geekbrains.book.market.entities.CartItem;
 import ru.geekbrains.book.market.repositories.CartRepository;
 
+import javax.transaction.Transactional;
+
 @Service
 @AllArgsConstructor
 public class CartService {
     private CartRepository cartRepository;
-
 
     public Cart updateCart(Cart cart) {
         recalculateCart(cart);

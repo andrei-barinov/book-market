@@ -11,6 +11,7 @@ import ru.geekbrains.book.market.services.BookService;
 import ru.geekbrains.book.market.services.CartService;
 import ru.geekbrains.book.market.services.UserService;
 
+import javax.transaction.Transactional;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +33,7 @@ public class CartController {
         User user = userService.findByUserLogin(principal.getName()).orElseThrow(() -> new UsernameNotFoundException("User not found"));
         return cartService.findCartByOwnerId(user.getUserId());
     }
+
 
     @PostMapping
     public Cart updateCart(@RequestBody Cart cart) {
