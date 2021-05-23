@@ -1,7 +1,11 @@
 package ru.geekbrains.book.market.controllers;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.util.JSONPObject;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.data.domain.jaxb.SpringDataJaxb;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +16,7 @@ import ru.geekbrains.book.market.exception.OrderNotFoundException;
 import ru.geekbrains.book.market.services.CartService;
 import ru.geekbrains.book.market.services.OrderService;
 import ru.geekbrains.book.market.services.UserService;
+import springfox.documentation.spring.web.json.Json;
 
 
 import java.security.Principal;
@@ -26,13 +31,18 @@ public class OrderController {
     private final OrderService orderService;
     private final UserService userService;
     private final CartService cartService;
+    private final RabbitTemplate rabbitTemplate;
+    public static final String REQUEST_QUEUE_NAME = "requestQueue";
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public OrderDto createOrderFromCart(Principal principal, @RequestParam String address) {
+    public OrderDto createOrderFromCart(Principal principal, @RequestParam String address) throws JsonProcessingException {
         Order order = orderService.createFromUserCart(principal.getName(), address);
         User user = userService.findByUserLogin(principal.getName()).orElseThrow();
         cartService.clearCart(user.getUserId());
+        ObjectMapper mapper = new ObjectMapper();
+        String json = mapper.writeValueAsString(new OrderDto(order));
+        rabbitTemplate.convertAndSend(REQUEST_QUEUE_NAME, json);
         return new OrderDto(order);
     }
 

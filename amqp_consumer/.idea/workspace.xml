@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40de5451-064a-4906-8928-e1cc55cfd438" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp_consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp_consumer_app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp_consumer_app/src/main/java/ru/geekbrains/AmqpConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp_with_controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp_with_controller/src/main/java/ru/geekbrains/amqp/with/controllers/AmqpApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp_with_controller/src/main/java/ru/geekbrains/amqp/with/controllers/SendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_market/src/main/java/ru/geekbrains/book/market/beans/Queues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_market/src/main/java/ru/geekbrains/book/market/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book_market/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_market/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book_market/src/main/java/ru/geekbrains/book/market/BookMarketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_market/src/main/java/ru/geekbrains/book/market/BookMarketApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book_market/src/main/java/ru/geekbrains/book/market/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_market/src/main/java/ru/geekbrains/book/market/controllers/OrderController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1sx3cihOjiiSxiJNYTJ50hoGMAd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/amqp_with_controller/src/main/java/ru/geekbrains/amqp/with/controllers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2021\Java\book-market\amqp_consumer\amqp_with_controller\src\main\java\ru\geekbrains\amqp\with\controllers" />
+      <recent name="D:\2021\Java\book-market\amqp_consumer\amqp_with_controller\src\main\java" />
+      <recent name="D:\2021\Java\book-market\amqp_consumer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AmqpConsumerApp">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmqpApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="amqp_with_controller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.amqp.with.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.amqp.with.controllers.AmqpApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmqpConsumerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="amqp_consumer_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.AmqpConsumerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AmqpConsumerApp" />
+        <item itemvalue="Spring Boot.AmqpApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40de5451-064a-4906-8928-e1cc55cfd438" name="Default Changelist" comment="" />
+      <created>1621800496077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621800496077</updated>
+      <workItem from="1621800497276" duration="4652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
