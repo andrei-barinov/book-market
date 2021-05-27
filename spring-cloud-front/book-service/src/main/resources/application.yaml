@@ -1,7 +1,9 @@
 eureka:
   client:
-    service-url: ${EUREKA_URI:http://localhost:8761/eureka}
     fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8861/eureka}
+
 
 spring:
   application:
@@ -22,4 +24,7 @@ spring:
           unique_constrains_strategy: RECREATE_QUIETLY
 
 
-
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true

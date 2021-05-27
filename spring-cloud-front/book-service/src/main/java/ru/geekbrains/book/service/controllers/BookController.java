@@ -2,7 +2,6 @@ package ru.geekbrains.book.service.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
-import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 import ru.geekbrains.book.service.dto.BookDto;
 import ru.geekbrains.book.service.entities.Book;
@@ -12,7 +11,6 @@ import ru.geekbrains.book.service.services.BookService;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/v1/books")
 public class BookController {
     private final BookService bookService;
 
@@ -25,7 +23,8 @@ public class BookController {
 
     @PostMapping
     public Book createNewBook(@RequestBody Book book){
-        book.setBookId(null);
+        Long id = (long)(bookService.findAllBook().size() + 1);
+        book.setBookId(id);
         return bookService.save(book);
     }
 
@@ -49,5 +48,6 @@ public class BookController {
         }
         return bookService.findAll(page);
     }
+
 
 }

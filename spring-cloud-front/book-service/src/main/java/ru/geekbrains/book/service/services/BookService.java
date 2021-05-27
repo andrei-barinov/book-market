@@ -43,7 +43,7 @@ public class BookService {
     }
 
     public Page<BookDto> findAll(int page) {
-        return bookRepository.findAll(PageRequest.of(page-1, 10)).map(BookDto::new);
+        return bookRepository.findAll(PageRequest.of(page-1, 5)).map(BookDto::new);
     }
 
 
