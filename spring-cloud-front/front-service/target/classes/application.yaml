@@ -1,0 +1,9 @@
+
+
+server:
+  port: 12000
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false

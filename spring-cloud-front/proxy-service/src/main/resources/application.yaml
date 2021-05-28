@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: proxy-service
+server:
+  port: 5555
+  servlet:
+    context-path: /cloud
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8861/eureka}
+
+zuul:
+  routes:
+    book-service: /api/v1/books/**
+  ignored-headers: Access-Controll-Allow-Credentials, Acces-Control-Allow-Origin
+
