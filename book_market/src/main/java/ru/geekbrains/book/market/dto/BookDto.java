@@ -1,9 +1,11 @@
 package ru.geekbrains.book.market.dto;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import ru.geekbrains.book.market.entities.Book;
 
 @Data
+@NoArgsConstructor
 public class BookDto {
     private Long id;
     private String title;

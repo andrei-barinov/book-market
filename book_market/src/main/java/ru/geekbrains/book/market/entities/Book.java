@@ -1,6 +1,8 @@
 package ru.geekbrains.book.market.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -11,7 +13,9 @@ import java.util.Collection;
 @Entity
 @Table(name = "book")
 @Data
+@NoArgsConstructor
 public class Book {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -42,5 +46,11 @@ public class Book {
             joinColumns = @JoinColumn(name = "book_id"),
             inverseJoinColumns = @JoinColumn(name = "category_id"))
     private Collection<Category> bookCategories;
+
+    public Book(Long id, String title, Integer price){
+        bookId = id;
+        bookTitle = title;
+        bookPrice = price;
+    }
 
 }

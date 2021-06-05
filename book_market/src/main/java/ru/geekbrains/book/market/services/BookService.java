@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class BookService {
     private final BookRepository bookRepository;
-    private final AuthorRepository authorRepository;
+    //private final AuthorRepository authorRepository;
 
     public Optional<Book> findBookById(Long id){
         return bookRepository.findById(id);

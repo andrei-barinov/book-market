@@ -1,5 +1,6 @@
 package ru.geekbrains.book.market.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
