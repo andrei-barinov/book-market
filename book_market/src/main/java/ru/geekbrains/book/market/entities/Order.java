@@ -1,6 +1,7 @@
 package ru.geekbrains.book.market.entities;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -13,11 +14,12 @@ import java.util.List;
 @Entity
 @Table(name = "orders")
 @Data
+@NoArgsConstructor
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Long oderId;
+    private Long orderId;
 
     @Cascade(org.hibernate.annotations.CascadeType.PERSIST)
     @OneToMany(mappedBy = "order")
