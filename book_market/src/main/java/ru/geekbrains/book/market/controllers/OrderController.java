@@ -57,6 +57,5 @@ public class OrderController {
     @GetMapping
     public List<OrderDto> getCurrentUserOrders(Principal principal) {
         return orderService.findAllByOwner(principal.getName()).stream().map(OrderDto::new).collect(Collectors.toList());
-//        return orderService.findAllByOwner(principal.getName());
     }
 }

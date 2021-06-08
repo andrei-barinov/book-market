@@ -20,9 +20,9 @@ public class OrderItem {
     @JoinColumn(name = "order_id")
     private Order order;
 
-    @ManyToOne
-    @JoinColumn(name = "book_id")
-    private Book book;
+//    @ManyToOne
+//    @JoinColumn(name = "book_id")
+    private Long bookId;
 
     @Column(name = "title")
     private String title;
@@ -45,7 +45,7 @@ public class OrderItem {
     private LocalDateTime bookUpdatedAt;
 
     public OrderItem(CartItem cartItem) {
-        this.book = cartItem.getBook();
+        this.bookId = cartItem.getBookId();
         this.title = cartItem.getTitle();
         this.quantity = cartItem.getQuantity();
         this.pricePerBook = cartItem.getPricePerBook();

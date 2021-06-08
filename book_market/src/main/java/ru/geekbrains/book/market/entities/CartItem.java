@@ -17,7 +17,7 @@ public class CartItem {
     @Indexed
     private Cart cart;
 
-    private Book book;
+    private Long bookId;
 
     private String title;
 
@@ -28,7 +28,7 @@ public class CartItem {
     private Integer price;
 
     public CartItem(Book book) {
-        this.book = book;
+        this.bookId= book.getBookId();
         this.title = book.getBookTitle();
         this.quantity = 1;
         this.pricePerBook = book.getBookPrice();

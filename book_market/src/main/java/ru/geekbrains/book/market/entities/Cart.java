@@ -16,12 +16,9 @@ import java.util.List;
 @Data
 @RedisHash("cart")
 public class Cart {
-    //    @Id
-//    private Long id;
     @Id
     private Long ownerId;
 
-    //    @Indexed
     private List<CartItem> cartItems;
 
     private Integer price;
@@ -33,24 +30,5 @@ public class Cart {
     public Cart() {
         this.cartItems = new ArrayList<>();
     }
-    //    public void add(CartItem cartItem) {
-//        for (CartItem item : cartItems) {
-//            if (item.getProduct().getId().equals(cartItem.getProduct().getId())) {
-//                item.increment(cartItem.getQuantity());
-//                calculate();
-//                return;
-//            }
-//        }
-//        cartItems.add(cartItem);
-//        cartItem.setCart(this);
-//        calculate();
-//    }
-//
-//    public void calculate() {
-//        price = new BigDecimal(0.0);
-//        for (CartItem cartItem : cartItems) {
-//            price.add(cartItem.getPrice());
-//        }
-//    }
 
 }

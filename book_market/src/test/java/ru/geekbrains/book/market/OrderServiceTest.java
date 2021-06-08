@@ -176,7 +176,7 @@ public class OrderServiceTest {
         Mockito.verify(orderRepository, Mockito.times(1)).findAllByOwner(ArgumentMatchers.eq(demoUser.getLogin()));
         Assertions.assertEquals(2, list.size());
         Assertions.assertEquals(1000, list.get(1).getPrice());
-        Assertions.assertEquals(900, list.get(1).getOrderItems().get(1).getBook().getBookPrice());
+        Assertions.assertEquals(900, list.get(1).getOrderItems().get(1).getPricePerBook());
 
     }
 

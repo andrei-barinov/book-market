@@ -1,140 +1,820 @@
-05-06-2021 15:23:57.579 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 8376 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 15:23:57.579 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 15:23:57.615 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b
-05-06-2021 15:23:58.117 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.787 seconds (JVM running for 1.542)
-05-06-2021 15:23:58.180 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b, started on Sat Jun 05 15:23:57 MSK 2021
-05-06-2021 15:53:33.124 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 8652 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 15:53:33.125 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 15:53:33.151 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b
-05-06-2021 15:53:33.543 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.634 seconds (JVM running for 1.303)
-05-06-2021 15:53:33.599 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b, started on Sat Jun 05 15:53:33 MSK 2021
-05-06-2021 15:53:48.201 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 9820 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 15:53:48.201 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 15:53:48.229 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d373bcf
-05-06-2021 15:53:48.680 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.712 seconds (JVM running for 2.238)
-05-06-2021 15:54:15.334 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@7d373bcf, started on Sat Jun 05 15:53:48 MSK 2021
-05-06-2021 16:00:06.701 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 11992 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 16:00:06.701 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 16:00:06.723 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b
-05-06-2021 16:00:07.108 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.615 seconds (JVM running for 1.26)
-05-06-2021 16:00:07.186 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b, started on Sat Jun 05 16:00:06 MSK 2021
-05-06-2021 16:03:00.725 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 12816 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 16:03:00.725 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 16:03:00.758 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b
-05-06-2021 16:03:01.153 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.623 seconds (JVM running for 1.272)
-05-06-2021 16:03:01.200 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b, started on Sat Jun 05 16:03:00 MSK 2021
-05-06-2021 16:03:32.287 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 14968 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 16:03:32.287 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 16:03:32.311 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b
-05-06-2021 16:03:32.707 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.625 seconds (JVM running for 1.27)
-05-06-2021 16:03:32.754 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b, started on Sat Jun 05 16:03:32 MSK 2021
-05-06-2021 16:09:49.516 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 14912 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 16:09:49.516 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 16:09:49.535 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b
-05-06-2021 16:09:49.932 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.616 seconds (JVM running for 1.246)
-05-06-2021 16:09:49.979 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b, started on Sat Jun 05 16:09:49 MSK 2021
-05-06-2021 16:10:36.703 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 7700 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 16:10:36.703 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 16:10:36.723 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b
-05-06-2021 16:10:37.110 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.617 seconds (JVM running for 1.258)
-05-06-2021 16:10:37.173 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@77cf3f8b, started on Sat Jun 05 16:10:36 MSK 2021
-05-06-2021 16:33:54.596 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 3560 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 16:33:54.596 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 16:33:54.623 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1df98368
-05-06-2021 16:33:55.011 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.628 seconds (JVM running for 1.259)
-05-06-2021 16:33:55.058 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@1df98368, started on Sat Jun 05 16:33:54 MSK 2021
-05-06-2021 17:07:45.913 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 1480 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:07:45.913 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:07:45.935 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:07:46.331 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.626 seconds (JVM running for 1.313)
-05-06-2021 17:07:46.394 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:07:45 MSK 2021
-05-06-2021 17:11:12.767 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 5652 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:11:12.767 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:11:12.782 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:11:13.186 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.624 seconds (JVM running for 1.278)
-05-06-2021 17:11:13.233 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:11:12 MSK 2021
-05-06-2021 17:11:31.231 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 14428 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:11:31.240 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:11:31.260 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9
-05-06-2021 17:11:31.694 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.692 seconds (JVM running for 1.446)
-05-06-2021 17:12:02.991 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9, started on Sat Jun 05 17:11:31 MSK 2021
-05-06-2021 17:16:23.184 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 14592 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:16:23.185 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:16:23.210 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9
-05-06-2021 17:16:23.657 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.702 seconds (JVM running for 1.457)
-05-06-2021 17:17:14.861 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9, started on Sat Jun 05 17:16:23 MSK 2021
-05-06-2021 17:18:51.525 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 10044 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:18:51.525 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:18:51.543 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:18:51.944 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.62 seconds (JVM running for 1.256)
-05-06-2021 17:18:51.990 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:18:51 MSK 2021
-05-06-2021 17:19:18.984 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 8572 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:19:18.986 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:19:19.011 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9
-05-06-2021 17:19:19.464 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.711 seconds (JVM running for 1.485)
-05-06-2021 17:20:07.597 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9, started on Sat Jun 05 17:19:19 MSK 2021
-05-06-2021 17:24:58.781 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 6616 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:24:58.781 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:24:58.802 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:24:59.188 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.621 seconds (JVM running for 1.265)
-05-06-2021 17:24:59.235 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:24:58 MSK 2021
-05-06-2021 17:26:42.290 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 4592 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:26:42.290 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:26:42.313 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:26:42.695 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.619 seconds (JVM running for 1.281)
-05-06-2021 17:26:42.742 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:26:42 MSK 2021
-05-06-2021 17:27:03.846 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 9832 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:27:03.846 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:27:03.874 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:27:04.259 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.621 seconds (JVM running for 1.261)
-05-06-2021 17:27:04.306 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:27:03 MSK 2021
-05-06-2021 17:27:14.988 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 13708 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:27:14.988 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:27:15.025 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9
-05-06-2021 17:27:15.456 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.704 seconds (JVM running for 1.447)
-05-06-2021 17:28:38.294 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9, started on Sat Jun 05 17:27:15 MSK 2021
-05-06-2021 17:28:42.077 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 5308 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:28:42.077 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:28:42.097 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:28:42.482 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.625 seconds (JVM running for 1.26)
-05-06-2021 17:28:42.544 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:28:42 MSK 2021
-05-06-2021 17:28:53.291 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 12308 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:28:53.291 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:28:53.321 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9
-05-06-2021 17:28:53.759 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.698 seconds (JVM running for 1.508)
-05-06-2021 17:29:38.838 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9, started on Sat Jun 05 17:28:53 MSK 2021
-05-06-2021 17:30:28.772 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 14600 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:30:28.773 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:30:28.800 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9
-05-06-2021 17:30:29.251 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.719 seconds (JVM running for 1.46)
-05-06-2021 17:31:53.517 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9, started on Sat Jun 05 17:30:28 MSK 2021
-05-06-2021 17:31:59.013 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 13136 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:31:59.013 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:31:59.028 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:31:59.434 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.617 seconds (JVM running for 1.255)
-05-06-2021 17:31:59.481 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:31:59 MSK 2021
-05-06-2021 17:39:22.209 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 9408 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:39:22.211 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:39:22.237 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9
-05-06-2021 17:39:22.685 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.705 seconds (JVM running for 1.449)
-05-06-2021 17:39:57.310 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@5dda6f9, started on Sat Jun 05 17:39:22 MSK 2021
-05-06-2021 17:42:00.742 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 14268 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:42:00.742 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:42:00.765 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:42:01.171 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.632 seconds (JVM running for 1.283)
-05-06-2021 17:42:01.218 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:42:00 MSK 2021
-05-06-2021 17:42:27.643 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 6608 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:42:27.644 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:42:27.670 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:42:28.062 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.634 seconds (JVM running for 1.296)
-05-06-2021 17:42:28.114 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:42:27 MSK 2021
-05-06-2021 17:43:35.472 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 3760 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:43:35.472 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:43:35.490 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:43:35.879 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.621 seconds (JVM running for 1.247)
-05-06-2021 17:43:35.941 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:43:35 MSK 2021
-05-06-2021 17:43:48.833 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 4044 (started by Андрей in D:\2021\Java\book-market\book_market)
-05-06-2021 17:43:48.833 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
-05-06-2021 17:43:48.863 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
-05-06-2021 17:43:49.246 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.626 seconds (JVM running for 1.263)
-05-06-2021 17:43:49.309 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Sat Jun 05 17:43:48 MSK 2021
+08-06-2021 17:54:24.854 [main] INFO  r.g.book.market.CartItemTest.logStarting - Starting CartItemTest using Java 15.0.1 on PC with PID 4008 (started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 17:54:24.859 [main] INFO  r.g.book.market.CartItemTest.logStartupProfileInfo - The following profiles are active: test
+08-06-2021 17:54:24.894 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e0aadd0
+08-06-2021 17:54:25.390 [main] INFO  r.g.book.market.CartItemTest.logStarted - Started CartItemTest in 0.795 seconds (JVM running for 1.602)
+08-06-2021 17:54:25.453 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@7e0aadd0, started on Tue Jun 08 17:54:24 MSK 2021
+08-06-2021 17:54:30.616 [main] INFO  r.g.book.market.CartItemTest.logStarting - Starting CartItemTest using Java 15.0.1 on PC with PID 6376 (started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 17:54:30.617 [main] INFO  r.g.book.market.CartItemTest.logStartupProfileInfo - The following profiles are active: test
+08-06-2021 17:54:30.646 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e0aadd0
+08-06-2021 17:54:31.044 [main] INFO  r.g.book.market.CartItemTest.logStarted - Started CartItemTest in 0.639 seconds (JVM running for 1.342)
+08-06-2021 17:54:31.098 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@7e0aadd0, started on Tue Jun 08 17:54:30 MSK 2021
+08-06-2021 17:54:35.338 [main] INFO  r.g.book.market.CartItemTest.logStarting - Starting CartItemTest using Java 15.0.1 on PC with PID 6488 (started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 17:54:35.338 [main] INFO  r.g.book.market.CartItemTest.logStartupProfileInfo - The following profiles are active: test
+08-06-2021 17:54:35.359 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e0aadd0
+08-06-2021 17:54:35.749 [main] INFO  r.g.book.market.CartItemTest.logStarted - Started CartItemTest in 0.633 seconds (JVM running for 1.328)
+08-06-2021 17:54:35.796 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@7e0aadd0, started on Tue Jun 08 17:54:35 MSK 2021
+08-06-2021 17:54:47.156 [main] INFO  r.g.b.market.BookMarketApplication.logStarting - Starting BookMarketApplication using Java 15.0.1 on PC with PID 12416 (D:\2021\Java\book-market\book_market\target\classes started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 17:54:47.156 [main] INFO  r.g.b.market.BookMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-06-2021 17:54:48.164 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'webServiceConfig' of type [ru.geekbrains.book.market.configs.WebServiceConfig$$EnhancerBySpringCGLIB$$c71868be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 17:54:48.164 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5429f5c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 17:54:48.227 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+08-06-2021 17:54:48.414 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+08-06-2021 17:54:48.414 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-06-2021 17:54:48.414 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+08-06-2021 17:54:48.508 [main] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring embedded WebApplicationContext
+08-06-2021 17:54:48.508 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1331 ms
+08-06-2021 17:54:48.602 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.8.1 by Redgate
+08-06-2021 17:54:48.602 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+08-06-2021 17:54:48.706 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+08-06-2021 17:54:48.737 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/db_book_market (PostgreSQL 13.2)
+08-06-2021 17:54:48.815 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.042s)
+08-06-2021 17:54:48.815 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "book_market": 1
+08-06-2021 17:54:48.815 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "book_market" is up to date. No migration necessary.
+08-06-2021 17:54:48.883 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-06-2021 17:54:48.929 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+08-06-2021 17:54:49.002 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-06-2021 17:54:49.064 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+08-06-2021 17:54:49.299 [main] INFO  org.hibernate.tuple.PojoInstantiator.<init> - HHH000182: No default (no-argument) constructor for class: ru.geekbrains.book.market.entities.OrderItem (class must be instantiated by Interceptor)
+08-06-2021 17:54:49.377 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-06-2021 17:54:49.377 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 17:54:49.408 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-06-2021 17:54:50.166 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 19 mappings in 'requestMappingHandlerMapping'
+08-06-2021 17:54:50.263 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d0cc47d, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a8cc099, org.springframework.security.web.header.HeaderWriterFilter@4dfbe8c2, org.springframework.security.web.authentication.logout.LogoutFilter@11c372e9, ru.geekbrains.book.market.beans.JwtRequestFilter@45eab322, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c00a9f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68cc6fa4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56dae6, org.springframework.security.web.session.SessionManagementFilter@12ef7db5, org.springframework.security.web.access.ExceptionTranslationFilter@4a0a93ce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e95c023]
+08-06-2021 17:54:50.294 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08-06-2021 17:54:50.419 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-06-2021 17:54:50.435 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08-06-2021 17:54:50.466 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08-06-2021 17:54:50.466 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+08-06-2021 17:54:50.485 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+08-06-2021 17:54:50.627 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/book_market'
+08-06-2021 17:54:50.627 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+08-06-2021 17:54:50.627 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+08-06-2021 17:54:50.658 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+08-06-2021 17:54:50.784 [main] INFO  r.g.b.market.BookMarketApplication.logStarted - Started BookMarketApplication in 3.865 seconds (JVM running for 4.372)
+08-06-2021 17:55:28.572 [http-nio-8189-exec-2] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-06-2021 17:55:28.572 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+08-06-2021 17:55:28.572 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+08-06-2021 17:55:28.572 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+08-06-2021 17:55:28.572 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+08-06-2021 17:55:28.573 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4ec78008
+08-06-2021 17:55:28.573 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2f95ce11
+08-06-2021 17:55:28.573 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08-06-2021 17:55:28.574 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+08-06-2021 17:55:28.584 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/auth", parameters={}
+08-06-2021 17:55:28.587 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.AuthController#createToken(JwtRequest)
+08-06-2021 17:55:28.611 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [JwtRequest(username=ivanov_sergey@mail.com, password=manager1)]
+08-06-2021 17:55:28.899 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 17:55:28.900 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [JwtResponse(token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpdmFub3Zfc2VyZ2V5QG1haWwuY29tIiwicm9sZXMiOltdLCJle (truncated)...]
+08-06-2021 17:55:28.905 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+08-06-2021 17:56:24.539 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/book_market/api/v1/cart/mock", parameters={}
+08-06-2021 17:56:24.540 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#getMockCart(Principal)
+08-06-2021 17:56:24.554 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 17:56:24.558 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 17:56:24.560 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+08-06-2021 18:03:02.576 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/cart", parameters={}
+08-06-2021 18:03:02.577 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#updateCart(Cart)
+08-06-2021 18:03:02.581 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=null, title=Мрачный залив, quantity=1 (truncated)...]
+08-06-2021 18:03:04.787 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+08-06-2021 18:03:04.790 [http-nio-8189-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/book_market] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08-06-2021 18:03:04.792 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/book_market/error", parameters={}
+08-06-2021 18:03:04.793 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+08-06-2021 18:03:04.794 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:03:04.794 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Tue Jun 08 18:03:04 MSK 2021, status=500, error=Internal Server Error, message=, path=/bo (truncated)...]
+08-06-2021 18:03:04.796 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+08-06-2021 18:04:09.229 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/book_market/api/v1/cart/mock", parameters={}
+08-06-2021 18:04:09.230 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#getMockCart(Principal)
+08-06-2021 18:04:09.234 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:04:09.234 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:04:09.236 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+08-06-2021 18:08:30.564 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/cart", parameters={}
+08-06-2021 18:08:30.565 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#updateCart(Cart)
+08-06-2021 18:08:30.567 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=null, title=Мрачный залив, quantity=1 (truncated)...]
+08-06-2021 18:08:32.575 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+08-06-2021 18:08:32.576 [http-nio-8189-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/book_market] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08-06-2021 18:08:32.576 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/book_market/error", parameters={}
+08-06-2021 18:08:32.577 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+08-06-2021 18:08:32.577 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:08:32.577 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Tue Jun 08 18:08:32 MSK 2021, status=500, error=Internal Server Error, message=, path=/bo (truncated)...]
+08-06-2021 18:08:32.578 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+08-06-2021 18:09:16.405 [main] INFO  r.g.b.market.BookMarketApplication.logStarting - Starting BookMarketApplication using Java 15.0.1 on PC with PID 7712 (D:\2021\Java\book-market\book_market\target\classes started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 18:09:16.407 [main] INFO  r.g.b.market.BookMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-06-2021 18:09:17.198 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'webServiceConfig' of type [ru.geekbrains.book.market.configs.WebServiceConfig$$EnhancerBySpringCGLIB$$c71868be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:09:17.198 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5429f5c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:09:17.224 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+08-06-2021 18:09:17.383 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+08-06-2021 18:09:17.387 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-06-2021 18:09:17.387 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+08-06-2021 18:09:17.468 [main] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring embedded WebApplicationContext
+08-06-2021 18:09:17.469 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1035 ms
+08-06-2021 18:09:17.541 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.8.1 by Redgate
+08-06-2021 18:09:17.544 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+08-06-2021 18:09:17.599 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+08-06-2021 18:09:17.610 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/db_book_market (PostgreSQL 13.2)
+08-06-2021 18:09:17.630 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.010s)
+08-06-2021 18:09:17.633 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "book_market": 1
+08-06-2021 18:09:17.634 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "book_market" is up to date. No migration necessary.
+08-06-2021 18:09:17.682 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-06-2021 18:09:17.707 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+08-06-2021 18:09:17.758 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-06-2021 18:09:17.803 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+08-06-2021 18:09:18.000 [main] INFO  org.hibernate.tuple.PojoInstantiator.<init> - HHH000182: No default (no-argument) constructor for class: ru.geekbrains.book.market.entities.OrderItem (class must be instantiated by Interceptor)
+08-06-2021 18:09:18.078 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-06-2021 18:09:18.082 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:09:18.105 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-06-2021 18:09:18.676 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 19 mappings in 'requestMappingHandlerMapping'
+08-06-2021 18:09:18.759 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e95c023, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cc7b63d, org.springframework.security.web.header.HeaderWriterFilter@7b8d1537, org.springframework.security.web.authentication.logout.LogoutFilter@4bf6bc2d, ru.geekbrains.book.market.beans.JwtRequestFilter@45eab322, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54626326, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e572ad6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3582077c, org.springframework.security.web.session.SessionManagementFilter@440e2406, org.springframework.security.web.access.ExceptionTranslationFilter@67e12e28, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7018636a]
+08-06-2021 18:09:18.774 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08-06-2021 18:09:18.867 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:09:18.877 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08-06-2021 18:09:18.902 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08-06-2021 18:09:18.907 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+08-06-2021 18:09:18.915 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+08-06-2021 18:09:19.034 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/book_market'
+08-06-2021 18:09:19.035 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+08-06-2021 18:09:19.043 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+08-06-2021 18:09:19.066 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+08-06-2021 18:09:19.188 [main] INFO  r.g.b.market.BookMarketApplication.logStarted - Started BookMarketApplication in 3.004 seconds (JVM running for 3.409)
+08-06-2021 18:09:29.760 [http-nio-8189-exec-2] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-06-2021 18:09:29.761 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+08-06-2021 18:09:29.761 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+08-06-2021 18:09:29.761 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+08-06-2021 18:09:29.761 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+08-06-2021 18:09:29.762 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5275d709
+08-06-2021 18:09:29.762 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4dc23273
+08-06-2021 18:09:29.763 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08-06-2021 18:09:29.763 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+08-06-2021 18:09:29.793 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/cart", parameters={}
+08-06-2021 18:09:29.796 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#updateCart(Cart)
+08-06-2021 18:09:29.819 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=null, title=Мрачный залив, quantity=1 (truncated)...]
+08-06-2021 18:09:31.988 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+08-06-2021 18:09:31.992 [http-nio-8189-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/book_market] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08-06-2021 18:09:31.993 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/book_market/error", parameters={}
+08-06-2021 18:09:31.995 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+08-06-2021 18:09:32.001 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:09:32.001 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Tue Jun 08 18:09:31 MSK 2021, status=500, error=Internal Server Error, message=, path=/bo (truncated)...]
+08-06-2021 18:09:32.010 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+08-06-2021 18:09:46.080 [main] INFO  r.g.b.market.BookMarketApplication.logStarting - Starting BookMarketApplication using Java 15.0.1 on PC with PID 9224 (D:\2021\Java\book-market\book_market\target\classes started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 18:09:46.080 [main] INFO  r.g.b.market.BookMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-06-2021 18:09:46.911 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'webServiceConfig' of type [ru.geekbrains.book.market.configs.WebServiceConfig$$EnhancerBySpringCGLIB$$3fd107ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:09:46.911 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$cce294b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:09:46.943 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+08-06-2021 18:09:47.114 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+08-06-2021 18:09:47.130 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-06-2021 18:09:47.130 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+08-06-2021 18:09:47.208 [main] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring embedded WebApplicationContext
+08-06-2021 18:09:47.208 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1104 ms
+08-06-2021 18:09:47.286 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.8.1 by Redgate
+08-06-2021 18:09:47.286 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+08-06-2021 18:09:47.349 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+08-06-2021 18:09:47.364 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/db_book_market (PostgreSQL 13.2)
+08-06-2021 18:09:47.396 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.012s)
+08-06-2021 18:09:47.396 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "book_market": 1
+08-06-2021 18:09:47.396 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "book_market" is up to date. No migration necessary.
+08-06-2021 18:09:47.458 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-06-2021 18:09:47.474 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+08-06-2021 18:09:47.536 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-06-2021 18:09:47.595 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+08-06-2021 18:09:47.831 [main] INFO  org.hibernate.tuple.PojoInstantiator.<init> - HHH000182: No default (no-argument) constructor for class: ru.geekbrains.book.market.entities.OrderItem (class must be instantiated by Interceptor)
+08-06-2021 18:09:47.913 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-06-2021 18:09:47.914 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:09:47.946 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-06-2021 18:09:48.668 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 19 mappings in 'requestMappingHandlerMapping'
+08-06-2021 18:09:48.741 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a6078d, org.springframework.security.web.context.SecurityContextPersistenceFilter@586a9fe1, org.springframework.security.web.header.HeaderWriterFilter@354baab2, org.springframework.security.web.authentication.logout.LogoutFilter@470fc16c, ru.geekbrains.book.market.beans.JwtRequestFilter@7574d4ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20bc3e7f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7eb006bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@372c428, org.springframework.security.web.session.SessionManagementFilter@39329d81, org.springframework.security.web.access.ExceptionTranslationFilter@452ea8f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a234e1f]
+08-06-2021 18:09:48.756 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08-06-2021 18:09:48.868 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:09:48.868 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08-06-2021 18:09:48.899 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08-06-2021 18:09:48.899 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+08-06-2021 18:09:48.915 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+08-06-2021 18:09:49.050 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/book_market'
+08-06-2021 18:09:49.050 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+08-06-2021 18:09:49.066 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+08-06-2021 18:09:49.081 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+08-06-2021 18:09:49.222 [main] INFO  r.g.b.market.BookMarketApplication.logStarted - Started BookMarketApplication in 3.379 seconds (JVM running for 4.549)
+08-06-2021 18:09:58.584 [http-nio-8189-exec-1] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-06-2021 18:09:58.584 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+08-06-2021 18:09:58.584 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+08-06-2021 18:09:58.584 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+08-06-2021 18:09:58.584 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+08-06-2021 18:09:58.585 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@500d4de8
+08-06-2021 18:09:58.585 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2c2dfde3
+08-06-2021 18:09:58.585 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08-06-2021 18:09:58.585 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+08-06-2021 18:09:58.622 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/cart", parameters={}
+08-06-2021 18:09:58.625 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#updateCart(Cart)
+08-06-2021 18:09:58.652 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=null, title=Мрачный залив, quantity=1 (truncated)...]
+08-06-2021 18:11:06.202 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s729ms346µs700ns).
+08-06-2021 18:11:25.072 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+08-06-2021 18:11:25.086 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:11:25.200 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:11:25.202 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+08-06-2021 18:11:25.204 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+08-06-2021 18:12:14.976 [main] INFO  r.g.b.market.BookMarketApplication.logStarting - Starting BookMarketApplication using Java 15.0.1 on PC with PID 15108 (D:\2021\Java\book-market\book_market\target\classes started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 18:12:14.978 [main] INFO  r.g.b.market.BookMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-06-2021 18:12:15.857 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'webServiceConfig' of type [ru.geekbrains.book.market.configs.WebServiceConfig$$EnhancerBySpringCGLIB$$97141f69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:12:15.858 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2425ac74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:12:15.886 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+08-06-2021 18:12:16.058 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+08-06-2021 18:12:16.063 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-06-2021 18:12:16.064 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+08-06-2021 18:12:16.148 [main] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring embedded WebApplicationContext
+08-06-2021 18:12:16.148 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1137 ms
+08-06-2021 18:12:16.232 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.8.1 by Redgate
+08-06-2021 18:12:16.235 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+08-06-2021 18:12:16.301 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+08-06-2021 18:12:16.313 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/db_book_market (PostgreSQL 13.2)
+08-06-2021 18:12:16.336 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.012s)
+08-06-2021 18:12:16.340 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "book_market": 1
+08-06-2021 18:12:16.340 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "book_market" is up to date. No migration necessary.
+08-06-2021 18:12:16.403 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-06-2021 18:12:16.431 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+08-06-2021 18:12:16.492 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-06-2021 18:12:16.546 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+08-06-2021 18:12:16.791 [main] INFO  org.hibernate.tuple.PojoInstantiator.<init> - HHH000182: No default (no-argument) constructor for class: ru.geekbrains.book.market.entities.OrderItem (class must be instantiated by Interceptor)
+08-06-2021 18:12:16.876 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-06-2021 18:12:16.881 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:12:16.908 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-06-2021 18:12:17.557 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 19 mappings in 'requestMappingHandlerMapping'
+08-06-2021 18:12:17.644 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@719e8f9f, org.springframework.security.web.context.SecurityContextPersistenceFilter@60f70c9e, org.springframework.security.web.header.HeaderWriterFilter@586a9fe1, org.springframework.security.web.authentication.logout.LogoutFilter@48463900, ru.geekbrains.book.market.beans.JwtRequestFilter@762a10b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34714012, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c168f98, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5122387, org.springframework.security.web.session.SessionManagementFilter@4dd28982, org.springframework.security.web.access.ExceptionTranslationFilter@487f025, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1cafb30]
+08-06-2021 18:12:17.657 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08-06-2021 18:12:17.760 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:12:17.771 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08-06-2021 18:12:17.804 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08-06-2021 18:12:17.810 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+08-06-2021 18:12:17.818 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+08-06-2021 18:12:17.952 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/book_market'
+08-06-2021 18:12:17.953 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+08-06-2021 18:12:17.961 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+08-06-2021 18:12:17.982 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+08-06-2021 18:12:18.128 [main] INFO  r.g.b.market.BookMarketApplication.logStarted - Started BookMarketApplication in 3.411 seconds (JVM running for 3.896)
+08-06-2021 18:12:28.335 [http-nio-8189-exec-2] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-06-2021 18:12:28.335 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+08-06-2021 18:12:28.335 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+08-06-2021 18:12:28.335 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+08-06-2021 18:12:28.335 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+08-06-2021 18:12:28.336 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2cea41ab
+08-06-2021 18:12:28.336 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4e6881e
+08-06-2021 18:12:28.337 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08-06-2021 18:12:28.337 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+08-06-2021 18:12:28.373 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/cart", parameters={}
+08-06-2021 18:12:28.376 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#updateCart(Cart)
+08-06-2021 18:12:28.404 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=null, title=Мрачный залив, quantity=1 (truncated)...]
+08-06-2021 18:15:01.466 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m45s65ms231µs500ns).
+08-06-2021 18:15:03.628 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+08-06-2021 18:15:03.639 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:15:03.754 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:15:03.755 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+08-06-2021 18:15:03.757 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+08-06-2021 18:15:07.496 [main] INFO  r.g.b.market.BookMarketApplication.logStarting - Starting BookMarketApplication using Java 15.0.1 on PC with PID 4800 (D:\2021\Java\book-market\book_market\target\classes started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 18:15:07.496 [main] INFO  r.g.b.market.BookMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-06-2021 18:15:08.351 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'webServiceConfig' of type [ru.geekbrains.book.market.configs.WebServiceConfig$$EnhancerBySpringCGLIB$$97141f69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:15:08.351 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2425ac74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:15:08.366 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+08-06-2021 18:15:08.546 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+08-06-2021 18:15:08.564 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-06-2021 18:15:08.564 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+08-06-2021 18:15:08.642 [main] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring embedded WebApplicationContext
+08-06-2021 18:15:08.642 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1114 ms
+08-06-2021 18:15:08.730 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.8.1 by Redgate
+08-06-2021 18:15:08.730 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+08-06-2021 18:15:08.792 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+08-06-2021 18:15:08.792 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/db_book_market (PostgreSQL 13.2)
+08-06-2021 18:15:08.824 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.012s)
+08-06-2021 18:15:08.824 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "book_market": 1
+08-06-2021 18:15:08.824 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "book_market" is up to date. No migration necessary.
+08-06-2021 18:15:08.886 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-06-2021 18:15:08.917 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+08-06-2021 18:15:08.974 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-06-2021 18:15:09.021 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+08-06-2021 18:15:09.258 [main] INFO  org.hibernate.tuple.PojoInstantiator.<init> - HHH000182: No default (no-argument) constructor for class: ru.geekbrains.book.market.entities.OrderItem (class must be instantiated by Interceptor)
+08-06-2021 18:15:09.336 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-06-2021 18:15:09.336 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:15:09.367 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-06-2021 18:15:10.024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 19 mappings in 'requestMappingHandlerMapping'
+08-06-2021 18:15:10.117 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c7008b4, org.springframework.security.web.context.SecurityContextPersistenceFilter@4dd28982, org.springframework.security.web.header.HeaderWriterFilter@39329d81, org.springframework.security.web.authentication.logout.LogoutFilter@4b0df349, ru.geekbrains.book.market.beans.JwtRequestFilter@762a10b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60f70c9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30ae3c46, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f54fabc, org.springframework.security.web.session.SessionManagementFilter@7eb006bd, org.springframework.security.web.access.ExceptionTranslationFilter@64547a83, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59ebe484]
+08-06-2021 18:15:10.133 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08-06-2021 18:15:10.234 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:15:10.236 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08-06-2021 18:15:10.267 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08-06-2021 18:15:10.267 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+08-06-2021 18:15:10.283 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+08-06-2021 18:15:10.408 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/book_market'
+08-06-2021 18:15:10.408 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+08-06-2021 18:15:10.423 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+08-06-2021 18:15:10.439 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+08-06-2021 18:15:10.583 [main] INFO  r.g.b.market.BookMarketApplication.logStarted - Started BookMarketApplication in 3.337 seconds (JVM running for 3.809)
+08-06-2021 18:15:19.326 [http-nio-8189-exec-1] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-06-2021 18:15:19.327 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+08-06-2021 18:15:19.327 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+08-06-2021 18:15:19.327 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+08-06-2021 18:15:19.327 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+08-06-2021 18:15:19.328 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1caa1866
+08-06-2021 18:15:19.328 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1ed763aa
+08-06-2021 18:15:19.328 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08-06-2021 18:15:19.328 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+08-06-2021 18:15:19.364 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/book_market/api/v1/cart/mock", parameters={}
+08-06-2021 18:15:19.367 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#getMockCart(Principal)
+08-06-2021 18:19:22.621 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s282ms618µs).
+08-06-2021 18:19:22.636 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:19:22.636 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:19:22.648 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+08-06-2021 18:19:22.661 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:19:22.674 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:19:22.676 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+08-06-2021 18:19:22.678 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+08-06-2021 18:19:26.025 [main] INFO  r.g.b.market.BookMarketApplication.logStarting - Starting BookMarketApplication using Java 15.0.1 on PC with PID 1864 (D:\2021\Java\book-market\book_market\target\classes started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 18:19:26.027 [main] INFO  r.g.b.market.BookMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-06-2021 18:19:26.816 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'webServiceConfig' of type [ru.geekbrains.book.market.configs.WebServiceConfig$$EnhancerBySpringCGLIB$$c71868be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:19:26.816 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5429f5c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:19:26.841 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+08-06-2021 18:19:27.002 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+08-06-2021 18:19:27.007 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-06-2021 18:19:27.007 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+08-06-2021 18:19:27.088 [main] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring embedded WebApplicationContext
+08-06-2021 18:19:27.088 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1038 ms
+08-06-2021 18:19:27.162 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.8.1 by Redgate
+08-06-2021 18:19:27.164 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+08-06-2021 18:19:27.220 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+08-06-2021 18:19:27.231 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/db_book_market (PostgreSQL 13.2)
+08-06-2021 18:19:27.252 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.011s)
+08-06-2021 18:19:27.256 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "book_market": 1
+08-06-2021 18:19:27.256 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "book_market" is up to date. No migration necessary.
+08-06-2021 18:19:27.305 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-06-2021 18:19:27.333 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+08-06-2021 18:19:27.385 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-06-2021 18:19:27.432 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+08-06-2021 18:19:27.633 [main] INFO  org.hibernate.tuple.PojoInstantiator.<init> - HHH000182: No default (no-argument) constructor for class: ru.geekbrains.book.market.entities.OrderItem (class must be instantiated by Interceptor)
+08-06-2021 18:19:27.711 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-06-2021 18:19:27.715 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:19:27.739 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-06-2021 18:19:28.315 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 19 mappings in 'requestMappingHandlerMapping'
+08-06-2021 18:19:28.402 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d00241b, org.springframework.security.web.context.SecurityContextPersistenceFilter@54626326, org.springframework.security.web.header.HeaderWriterFilter@530aa75c, org.springframework.security.web.authentication.logout.LogoutFilter@25c756f0, ru.geekbrains.book.market.beans.JwtRequestFilter@45eab322, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ea91c39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69c53b72, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@365fde74, org.springframework.security.web.session.SessionManagementFilter@2cc7b63d, org.springframework.security.web.access.ExceptionTranslationFilter@96271d8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73624529]
+08-06-2021 18:19:28.417 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08-06-2021 18:19:28.510 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:19:28.520 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08-06-2021 18:19:28.543 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08-06-2021 18:19:28.549 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+08-06-2021 18:19:28.557 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+08-06-2021 18:19:28.676 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/book_market'
+08-06-2021 18:19:28.677 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+08-06-2021 18:19:28.684 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+08-06-2021 18:19:28.704 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+08-06-2021 18:19:28.835 [main] INFO  r.g.b.market.BookMarketApplication.logStarted - Started BookMarketApplication in 3.033 seconds (JVM running for 3.441)
+08-06-2021 18:19:34.668 [http-nio-8189-exec-2] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-06-2021 18:19:34.668 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+08-06-2021 18:19:34.668 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+08-06-2021 18:19:34.668 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+08-06-2021 18:19:34.668 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+08-06-2021 18:19:34.669 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6461c673
+08-06-2021 18:19:34.669 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@482034fb
+08-06-2021 18:19:34.669 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08-06-2021 18:19:34.669 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+08-06-2021 18:19:34.701 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/book_market/api/v1/cart/mock", parameters={}
+08-06-2021 18:19:34.703 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#getMockCart(Principal)
+08-06-2021 18:19:34.788 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:19:34.792 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:19:34.802 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+08-06-2021 18:20:43.655 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/cart", parameters={}
+08-06-2021 18:20:43.656 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#updateCart(Cart)
+08-06-2021 18:20:43.668 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:20:45.833 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+08-06-2021 18:20:45.835 [http-nio-8189-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/book_market] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08-06-2021 18:20:45.837 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/book_market/error", parameters={}
+08-06-2021 18:20:45.838 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+08-06-2021 18:20:45.840 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:20:45.845 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Tue Jun 08 18:20:45 MSK 2021, status=500, error=Internal Server Error, message=, path=/bo (truncated)...]
+08-06-2021 18:20:45.849 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+08-06-2021 18:21:28.765 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/orders?address=lenina", parameters={masked}
+08-06-2021 18:21:28.765 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.OrderController#createOrderFromCart(Principal, String)
+08-06-2021 18:21:30.783 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+08-06-2021 18:21:30.784 [http-nio-8189-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/book_market] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08-06-2021 18:21:30.785 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/book_market/error?address=lenina", parameters={masked}
+08-06-2021 18:21:30.785 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+08-06-2021 18:21:30.785 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:21:30.785 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Tue Jun 08 18:21:30 MSK 2021, status=500, error=Internal Server Error, message=, path=/bo (truncated)...]
+08-06-2021 18:21:30.786 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+08-06-2021 18:22:46.384 [main] INFO  r.g.b.market.BookMarketApplication.logStarting - Starting BookMarketApplication using Java 15.0.1 on PC with PID 292 (D:\2021\Java\book-market\book_market\target\classes started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 18:22:46.384 [main] INFO  r.g.b.market.BookMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-06-2021 18:22:47.159 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'webServiceConfig' of type [ru.geekbrains.book.market.configs.WebServiceConfig$$EnhancerBySpringCGLIB$$c71868be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:22:47.159 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5429f5c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:22:47.190 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+08-06-2021 18:22:47.346 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+08-06-2021 18:22:47.346 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-06-2021 18:22:47.346 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+08-06-2021 18:22:47.424 [main] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring embedded WebApplicationContext
+08-06-2021 18:22:47.424 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1011 ms
+08-06-2021 18:22:47.503 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.8.1 by Redgate
+08-06-2021 18:22:47.503 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+08-06-2021 18:22:47.549 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+08-06-2021 18:22:47.574 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/db_book_market (PostgreSQL 13.2)
+08-06-2021 18:22:47.588 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.011s)
+08-06-2021 18:22:47.588 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "book_market": 1
+08-06-2021 18:22:47.588 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "book_market" is up to date. No migration necessary.
+08-06-2021 18:22:47.634 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-06-2021 18:22:47.666 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+08-06-2021 18:22:47.713 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-06-2021 18:22:47.765 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+08-06-2021 18:22:47.963 [main] INFO  org.hibernate.tuple.PojoInstantiator.<init> - HHH000182: No default (no-argument) constructor for class: ru.geekbrains.book.market.entities.OrderItem (class must be instantiated by Interceptor)
+08-06-2021 18:22:48.042 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-06-2021 18:22:48.042 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:22:48.057 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-06-2021 18:22:48.624 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 19 mappings in 'requestMappingHandlerMapping'
+08-06-2021 18:22:48.718 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d00241b, org.springframework.security.web.context.SecurityContextPersistenceFilter@54626326, org.springframework.security.web.header.HeaderWriterFilter@530aa75c, org.springframework.security.web.authentication.logout.LogoutFilter@25c756f0, ru.geekbrains.book.market.beans.JwtRequestFilter@45eab322, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ea91c39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69c53b72, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@365fde74, org.springframework.security.web.session.SessionManagementFilter@2cc7b63d, org.springframework.security.web.access.ExceptionTranslationFilter@96271d8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73624529]
+08-06-2021 18:22:48.718 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08-06-2021 18:22:48.812 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:22:48.828 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08-06-2021 18:22:48.843 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08-06-2021 18:22:48.859 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+08-06-2021 18:22:48.859 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+08-06-2021 18:22:48.981 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/book_market'
+08-06-2021 18:22:48.981 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+08-06-2021 18:22:48.996 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+08-06-2021 18:22:49.012 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+08-06-2021 18:22:49.139 [main] INFO  r.g.b.market.BookMarketApplication.logStarted - Started BookMarketApplication in 3.069 seconds (JVM running for 3.476)
+08-06-2021 18:23:04.075 [http-nio-8189-exec-2] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-06-2021 18:23:04.075 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+08-06-2021 18:23:04.075 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+08-06-2021 18:23:04.075 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+08-06-2021 18:23:04.075 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+08-06-2021 18:23:04.076 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6461c673
+08-06-2021 18:23:04.076 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@482034fb
+08-06-2021 18:23:04.077 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08-06-2021 18:23:04.077 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+08-06-2021 18:23:04.109 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/book_market/api/v1/cart/mock", parameters={}
+08-06-2021 18:23:04.111 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#getMockCart(Principal)
+08-06-2021 18:23:04.197 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:23:04.202 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:23:04.211 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+08-06-2021 18:23:09.099 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/cart", parameters={}
+08-06-2021 18:23:09.100 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#updateCart(Cart)
+08-06-2021 18:23:09.112 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:23:09.321 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:23:09.322 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:23:09.323 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+08-06-2021 18:23:42.219 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/orders?address=lenina", parameters={masked}
+08-06-2021 18:23:42.220 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.OrderController#createOrderFromCart(Principal, String)
+08-06-2021 18:23:42.309 [http-nio-8189-exec-4] INFO  o.s.a.r.c.CachingConnectionFactory.connectAddresses - Attempting to connect to: [localhost:5672]
+08-06-2021 18:23:46.318 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+08-06-2021 18:23:46.321 [http-nio-8189-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/book_market] threw exception [Request processing failed; nested exception is org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:638)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:613)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:724)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:216)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2132)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2105)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:1049)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1114)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1096)
+	at ru.geekbrains.book.market.controllers.OrderController.createOrderFromCart(OrderController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at ru.geekbrains.book.market.beans.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08-06-2021 18:23:46.324 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/book_market/error?address=lenina", parameters={masked}
+08-06-2021 18:23:46.325 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+08-06-2021 18:23:46.328 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:23:46.328 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Tue Jun 08 18:23:46 MSK 2021, status=500, error=Internal Server Error, message=, path=/bo (truncated)...]
+08-06-2021 18:23:46.330 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+08-06-2021 18:24:51.243 [main] INFO  r.g.b.market.BookMarketApplication.logStarting - Starting BookMarketApplication using Java 15.0.1 on PC with PID 6488 (D:\2021\Java\book-market\book_market\target\classes started by Андрей in D:\2021\Java\book-market\book_market)
+08-06-2021 18:24:51.243 [main] INFO  r.g.b.market.BookMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-06-2021 18:24:52.028 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'webServiceConfig' of type [ru.geekbrains.book.market.configs.WebServiceConfig$$EnhancerBySpringCGLIB$$c71868be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:24:52.028 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5429f5c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08-06-2021 18:24:52.059 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+08-06-2021 18:24:52.199 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+08-06-2021 18:24:52.215 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+08-06-2021 18:24:52.215 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+08-06-2021 18:24:52.293 [main] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring embedded WebApplicationContext
+08-06-2021 18:24:52.293 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1020 ms
+08-06-2021 18:24:52.371 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.8.1 by Redgate
+08-06-2021 18:24:52.371 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+08-06-2021 18:24:52.418 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+08-06-2021 18:24:52.434 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/db_book_market (PostgreSQL 13.2)
+08-06-2021 18:24:52.449 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 2 migrations (execution time 00:00.011s)
+08-06-2021 18:24:52.449 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "book_market": 1
+08-06-2021 18:24:52.449 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "book_market" is up to date. No migration necessary.
+08-06-2021 18:24:52.496 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-06-2021 18:24:52.528 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+08-06-2021 18:24:52.587 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08-06-2021 18:24:52.635 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+08-06-2021 18:24:52.837 [main] INFO  org.hibernate.tuple.PojoInstantiator.<init> - HHH000182: No default (no-argument) constructor for class: ru.geekbrains.book.market.entities.OrderItem (class must be instantiated by Interceptor)
+08-06-2021 18:24:52.900 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08-06-2021 18:24:52.900 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-06-2021 18:24:52.925 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-06-2021 18:24:53.494 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 19 mappings in 'requestMappingHandlerMapping'
+08-06-2021 18:24:53.589 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e95c023, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cc7b63d, org.springframework.security.web.header.HeaderWriterFilter@7b8d1537, org.springframework.security.web.authentication.logout.LogoutFilter@4bf6bc2d, ru.geekbrains.book.market.beans.JwtRequestFilter@45eab322, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54626326, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e572ad6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3582077c, org.springframework.security.web.session.SessionManagementFilter@440e2406, org.springframework.security.web.access.ExceptionTranslationFilter@67e12e28, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7018636a]
+08-06-2021 18:24:53.604 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08-06-2021 18:24:53.699 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-06-2021 18:24:53.714 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08-06-2021 18:24:53.730 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08-06-2021 18:24:53.730 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+08-06-2021 18:24:53.745 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+08-06-2021 18:24:53.872 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/book_market'
+08-06-2021 18:24:53.872 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+08-06-2021 18:24:53.872 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+08-06-2021 18:24:53.887 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+08-06-2021 18:24:54.020 [main] INFO  r.g.b.market.BookMarketApplication.logStarted - Started BookMarketApplication in 3.025 seconds (JVM running for 3.471)
+08-06-2021 18:25:10.025 [http-nio-8189-exec-2] INFO  o.a.c.c.C.[.[.[/book_market].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-06-2021 18:25:10.025 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+08-06-2021 18:25:10.025 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+08-06-2021 18:25:10.025 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+08-06-2021 18:25:10.026 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+08-06-2021 18:25:10.026 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5275d709
+08-06-2021 18:25:10.027 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4dc23273
+08-06-2021 18:25:10.027 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08-06-2021 18:25:10.027 [http-nio-8189-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+08-06-2021 18:25:10.059 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/orders?address=lenina", parameters={masked}
+08-06-2021 18:25:10.062 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.OrderController#createOrderFromCart(Principal, String)
+08-06-2021 18:25:10.321 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: java.lang.RuntimeException: Корзина пустая
+08-06-2021 18:25:10.325 [http-nio-8189-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/book_market] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Корзина пустая] with root cause
+java.lang.RuntimeException: Корзина пустая
+	at ru.geekbrains.book.market.services.OrderService.createFromUserCart(OrderService.java:28)
+	at ru.geekbrains.book.market.services.OrderService$$FastClassBySpringCGLIB$$ef602a48.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at ru.geekbrains.book.market.services.OrderService$$EnhancerBySpringCGLIB$$800ae372.createFromUserCart(<generated>)
+	at ru.geekbrains.book.market.controllers.OrderController.createOrderFromCart(OrderController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at ru.geekbrains.book.market.beans.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+08-06-2021 18:25:10.329 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/book_market/error?address=lenina", parameters={masked}
+08-06-2021 18:25:10.330 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+08-06-2021 18:25:10.337 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:25:10.338 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Tue Jun 08 18:25:10 MSK 2021, status=500, error=Internal Server Error, message=, path=/bo (truncated)...]
+08-06-2021 18:25:10.346 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+08-06-2021 18:25:39.173 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/cart", parameters={}
+08-06-2021 18:25:39.173 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.CartController#updateCart(Cart)
+08-06-2021 18:25:39.190 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:25:39.221 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:25:39.221 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, bookId=1, title=Мрачный залив, quantity=1, p (truncated)...]
+08-06-2021 18:25:39.224 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+08-06-2021 18:25:45.068 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/book_market/api/v1/orders?address=lenina", parameters={masked}
+08-06-2021 18:25:45.069 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.book.market.controllers.OrderController#createOrderFromCart(Principal, String)
+08-06-2021 18:25:45.117 [http-nio-8189-exec-3] INFO  o.s.a.r.c.CachingConnectionFactory.connectAddresses - Attempting to connect to: [localhost:5672]
+08-06-2021 18:25:45.144 [http-nio-8189-exec-3] INFO  o.s.a.r.c.CachingConnectionFactory.createBareConnection - Created new connection: rabbitConnectionFactory#d082916:0/SimpleConnection@55e6ed7a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 51369]
+08-06-2021 18:25:45.163 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+08-06-2021 18:25:45.167 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [OrderDto(id=2, username=ivanov_sergey@mail.com, address=lenina, totalPrice=18000, items=[OrderItemDt (truncated)...]
+08-06-2021 18:25:45.169 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 201 CREATED

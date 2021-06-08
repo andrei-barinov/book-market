@@ -41,7 +41,7 @@ public class CartItemTest {
 
         CartItem CI = cartItemService.findById(5L).get();
         Mockito.verify(cartItemRepository, Mockito.times(1)).findById(ArgumentMatchers.eq(5L));
-        Assertions.assertEquals("Поющие в терновнике", CI.getBook().getBookTitle());
+        Assertions.assertEquals("Поющие в терновнике", CI.getTitle());
 
     }
 
@@ -57,7 +57,7 @@ public class CartItemTest {
 
         CartItem CI = cartItemRepository.save(demoCartItem);
         Mockito.verify(cartItemRepository, Mockito.times(1)).save(demoCartItem);
-        Assertions.assertEquals(1300, CI.getBook().getBookPrice());
+        Assertions.assertEquals(1300, CI.getPrice());
     }
 
 

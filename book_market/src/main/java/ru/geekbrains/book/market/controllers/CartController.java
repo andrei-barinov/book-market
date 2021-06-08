@@ -1,8 +1,11 @@
 package ru.geekbrains.book.market.controllers;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.*;
+import ru.geekbrains.book.market.dto.CartDto;
 import ru.geekbrains.book.market.entities.Book;
 import ru.geekbrains.book.market.entities.Cart;
 import ru.geekbrains.book.market.entities.CartItem;
@@ -20,18 +23,18 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/cart")
 @RequiredArgsConstructor
+@Slf4j
 public class CartController {
     private final CartService cartService;
     private final UserService userService;
     private final BookService bookService;
 
     @GetMapping
-    public Cart getCurrentCart(Principal principal) {
-//        if (principal == null) {
-//            return cartService.getCartForUser(null, null);
-//        }
+    public CartDto getCurrentCart(Principal principal) {
         User user = userService.findByUserLogin(principal.getName()).orElseThrow(() -> new UsernameNotFoundException("User not found"));
-        return cartService.findCartByOwnerId(user.getUserId());
+        Cart cart = cartService.findCartByOwnerId(user.getUserId());
+        log.info("{}", cart);
+        return new CartDto(cart);
     }
 
 
@@ -40,10 +43,19 @@ public class CartController {
         return cartService.updateCart(cart);
     }
 
-    @DeleteMapping
-    public Cart clearCart(Principal principal) {
+
+    @PostMapping("/add")
+    public ResponseEntity<?> addProductToCart(Principal principal, @RequestParam(name = "product_id") Long productId) {
         User user = userService.findByUserLogin(principal.getName()).orElseThrow(() -> new UsernameNotFoundException("User not found"));
-        return cartService.clearCart(user.getUserId());
+        cartService.addToCart(user.getUserId(), productId);
+        return ResponseEntity.ok("");
+    }
+
+    @DeleteMapping
+    public CartDto clearCart(Principal principal) {
+        User user = userService.findByUserLogin(principal.getName()).orElseThrow(() -> new UsernameNotFoundException("User not found"));
+        Cart cart = cartService.clearCart(user.getUserId());
+        return new CartDto(cart);
     }
 
     @GetMapping("/mock")
