@@ -19,8 +19,9 @@ public class OrderDto {
     private String creationDateTime;
 
     public OrderDto(Order order) {
+        String username = order.getOwner().getUserFirstName() + " " + order.getOwner().getUserLastName();
         this.id = order.getOrderId();
-        this.username = order.getOwner().getLogin();
+        this.username = username;
         this.address = order.getAddress();
         this.totalPrice = order.getPrice();
         this.creationDateTime = order.getCreatedAt().toString();

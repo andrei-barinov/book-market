@@ -24,6 +24,7 @@ import java.util.List;
 @RequestMapping("/api/v1/cart")
 @RequiredArgsConstructor
 @Slf4j
+@CrossOrigin("*")
 public class CartController {
     private final CartService cartService;
     private final UserService userService;
@@ -45,9 +46,9 @@ public class CartController {
 
 
     @PostMapping("/add")
-    public ResponseEntity<?> addProductToCart(Principal principal, @RequestParam(name = "product_id") Long productId) {
+    public ResponseEntity<?> addProductToCart(Principal principal, @RequestParam(name = "book_id") Long bookId) {
         User user = userService.findByUserLogin(principal.getName()).orElseThrow(() -> new UsernameNotFoundException("User not found"));
-        cartService.addToCart(user.getUserId(), productId);
+        cartService.addToCart(user.getUserId(), bookId);
         return ResponseEntity.ok("");
     }
 

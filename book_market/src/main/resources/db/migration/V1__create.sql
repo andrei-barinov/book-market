@@ -13,8 +13,8 @@ INSERT INTO role values (4, 'ROLE_SUPERADMIN');
 drop table if exists users cascade;
 create table users(
                       id bigserial primary key,
-                      first_name varchar(255) not null,
                       last_name varchar(255) not null,
+                      first_name varchar(255) not null,
                       login varchar(255) not null,
                       password varchar(255) not null,
                       phone_number varchar(255),

@@ -38,6 +38,6 @@ public class OrderService {
     public List<Order> findAllByOwner(String userName){
         User user = userService.findByUserLogin(userName)
                 .orElseThrow(()-> new UserNotFoundException("Пользователь с данным логин не найден"));
-        return orderRepository.findAllByOwner(user.getLogin());
+        return orderRepository.findAllByOwner(user);
     }
 }

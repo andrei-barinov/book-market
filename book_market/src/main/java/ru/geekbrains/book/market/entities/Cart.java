@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-@RedisHash("cart")
+@RedisHash("carts")
 public class Cart {
     @Id
     private Long ownerId;

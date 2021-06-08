@@ -30,6 +30,7 @@ public class CartService {
     public Cart clearCart(Long id) {
         Cart cart = findCartByOwnerId(id);
         cart.getCartItems().clear();
+        cart.setPrice(0);
         return cartRepository.save(cart);
     }
 
@@ -40,11 +41,11 @@ public class CartService {
         }
     }
 
-    public void addToCart(Long userId, Long productId) {
+    public void addToCart(Long userId, Long bookId) {
         log.debug("Adding to cart");
         Cart cart = findCartByOwnerId(userId);
         for (CartItem cartItem : cart.getCartItems()) {
-            if (cartItem.getBookId().equals(productId)) {
+            if (cartItem.getBookId().equals(bookId)) {
                 log.debug("Found existing item {}", cartItem.getTitle());
                 cartItem.setQuantity(cartItem.getQuantity() + 1);
                 recalculateCart(cart);
@@ -53,7 +54,7 @@ public class CartService {
                 return;
             }
         }
-        CartItem item = new CartItem(bookService.findBookById(productId).orElseThrow(() -> new BookNotFoundException("Not found!")));
+        CartItem item = new CartItem(bookService.findBookById(bookId).orElseThrow(() -> new BookNotFoundException("Not found!")));
         cart.getCartItems().add(item);
         recalculateCart(cart);
         cartRepository.save(cart);

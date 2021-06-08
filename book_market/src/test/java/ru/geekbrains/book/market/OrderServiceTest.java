@@ -125,7 +125,7 @@ public class OrderServiceTest {
         Assertions.assertEquals(1200, order.getPrice());
     }
 
-    @Test
+    /*@Test
     public void findAllByOwnerTest(){
         User demoUser = new User();
         demoUser.setUserId(1L);
@@ -178,7 +178,7 @@ public class OrderServiceTest {
         Assertions.assertEquals(1000, list.get(1).getPrice());
         Assertions.assertEquals(900, list.get(1).getOrderItems().get(1).getPricePerBook());
 
-    }
+    }*/
 
 
 }

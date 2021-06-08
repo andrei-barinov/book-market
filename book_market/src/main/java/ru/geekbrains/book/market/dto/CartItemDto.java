@@ -1,7 +1,11 @@
 package ru.geekbrains.book.market.dto;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import ru.geekbrains.book.market.entities.CartItem;
 
+@Data
+@NoArgsConstructor
 public class CartItemDto {
     private Long bookId;
     private String bookTitle;
