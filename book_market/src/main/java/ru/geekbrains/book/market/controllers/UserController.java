@@ -3,25 +3,25 @@ package ru.geekbrains.book.market.controllers;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import ru.geekbrains.book.market.entities.User;
 import ru.geekbrains.book.market.services.UserService;
 
 import java.security.Principal;
 
-@Controller
+@RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/user")
+@CrossOrigin("*")
 public class UserController {
     private final UserService userService;
 
     @GetMapping
-    public String findUserNameByLogin(@RequestBody Principal principal){
-        User user = userService.findByUserLogin(principal.getName()).orElseThrow(
+    public User findUserNameByLogin(@RequestParam String login){
+        User user = userService.findByUserLogin(login).orElseThrow(
                 () -> new UsernameNotFoundException("Пользователь с данным логин не найден"));
-        return user.getUserFirstName();
+        String userName = user.getUserFirstName() + " " + user.getUserLastName();
+        user.setLogin(userName);
+        return user;
     }
 }

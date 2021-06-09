@@ -6,15 +6,15 @@ import ru.geekbrains.book.market.entities.Book;
 
 public class BookSpecifications {
     private static Specification<Book> priceGreaterOrEqualsThan(int minPrice) {
-        return (Specification<Book>) (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.greaterThanOrEqualTo(root.get("price"), minPrice);
+        return (Specification<Book>) (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.greaterThanOrEqualTo(root.get("bookPrice"), minPrice);
     }
 
     private static Specification<Book> priceLesserOrEqualsThan(int maxPrice) {
-        return (Specification<Book>) (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.lessThanOrEqualTo(root.get("price"), maxPrice);
+        return (Specification<Book>) (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.lessThanOrEqualTo(root.get("bookPrice"), maxPrice);
     }
 
     private static Specification<Book> titleLike(String titlePart) {
-        return (Specification<Book>) (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.like(root.get("title"), String.format("%%%s%%", titlePart));
+        return (Specification<Book>) (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.like(root.get("bookTitle"), String.format("%%%s%%", titlePart));
     }
 
     public static Specification<Book> build(MultiValueMap<String, String> params) {

@@ -1,4 +1,4 @@
-angular.module('app').controller('productsController', function ($scope, $http, $localStorage) {
+angular.module('app').controller('booksController', function ($scope, $http, $localStorage) {
     const contextPath = 'http://localhost:8189/book_market';
 
     $scope.showProductsPage = function (pageIndex = 1) {

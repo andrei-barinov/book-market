@@ -16,7 +16,7 @@
 <body>
 
 <div class="container">
-    <h1>Happy Market</h1>
+    <h1>Book Market</h1>
     <div ng-controller="indexController">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -25,7 +25,7 @@
                         <a class="nav-link" href="#!/">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#!/products">Каталог товаров</a>
+                        <a class="nav-link" href="#!/books">Каталог книг</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#!/orders" ng-if="isUserLoggedIn()">Мои заказы</a>
@@ -52,7 +52,10 @@
                         <button class="btn btn-outline-secondary" ng-click="tryToLogout()">Выйти</button>
                     </li>
                     <li class="nav-item" ng-show="isUserLoggedIn()">
-                        <span>{{currentUserName}}</span>
+                        <div class="wrap" style="margin-left: 30px; position: relative;">
+                            <div class="box box-1" style="display: inline-block; vertical-align: middle;">Вы вошли как:</div>
+                            <div class="box box-2" style="inline-block; vertical-align: middle;">{{newUser.login}}</div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -63,7 +66,7 @@
 
     <script src="index.js"></script>
     <script src="home/home.js"></script>
-    <script src="products/products.js"></script>
+    <script src="books/books.js"></script>
     <script src="cart/cart.js"></script>
     <script src="order_confirmation/order_confirmation.js"></script>
     <script src="order_result/order_result.js"></script>

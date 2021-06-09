@@ -12,9 +12,9 @@
                 templateUrl: 'home/home.html',
                 controller: 'homeController'
             })
-            .when('/products', {
-                templateUrl: 'products/products.html',
-                controller: 'productsController'
+            .when('/books', {
+                templateUrl: 'books/books.html',
+                controller: 'booksController'
             })
             .when('/cart', {
                 templateUrl: 'cart/cart.html',
@@ -56,13 +56,25 @@ angular.module('app').controller('indexController', function ($scope, $http, $lo
                 if (response.data.token) {
                     $http.defaults.headers.common.Authorization = 'Bearer ' + response.data.token;
                     $localStorage.currentUser = {username: $scope.user.username, token: response.data.token};
-                    $scope.currentUserName = $scope.user.username;
+                    $scope.getUser($scope.user.username)
                     $scope.user.username = null;
                     $scope.user.password = null;
                 }
             }, function errorCallback(response) {
             });
     };
+
+    $scope.getUser = function (login){
+        $http({
+            url: contextPath + '/api/v1/user',
+            method: 'GET',
+            params:{
+                login: login
+            }
+        }).then(function (response) {
+            $scope.newUser = response.data
+        })
+    }
 
 
     $scope.tryToLogout = function () {
