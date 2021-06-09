@@ -125,7 +125,7 @@ public class OrderServiceTest {
         Assertions.assertEquals(1200, order.getPrice());
     }
 
-    /*@Test
+    @Test
     public void findAllByOwnerTest(){
         User demoUser = new User();
         demoUser.setUserId(1L);
@@ -170,15 +170,15 @@ public class OrderServiceTest {
         Mockito
                 .doReturn(orderList)
                 .when(orderRepository)
-                .findAllByOwner(demoUser.getLogin());
+                .findAllByOwner(demoUser);
 
-        List<Order> list = orderRepository.findAllByOwner(demoUser.getLogin());
-        Mockito.verify(orderRepository, Mockito.times(1)).findAllByOwner(ArgumentMatchers.eq(demoUser.getLogin()));
+        List<Order> list = orderRepository.findAllByOwner(demoUser);
+        Mockito.verify(orderRepository, Mockito.times(1)).findAllByOwner(ArgumentMatchers.eq(demoUser));
         Assertions.assertEquals(2, list.size());
         Assertions.assertEquals(1000, list.get(1).getPrice());
         Assertions.assertEquals(900, list.get(1).getOrderItems().get(1).getPricePerBook());
 
-    }*/
+    }
 
 
 }

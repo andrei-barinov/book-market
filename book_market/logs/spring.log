@@ -7455,3 +7455,8 @@ java.lang.NullPointerException: Cannot invoke "String.isBlank()" because the ret
 09-06-2021 13:47:52.337 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 09-06-2021 13:47:52.337 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 3 containing ru.geekbrains.book.market.dto.BookDto instances]
 09-06-2021 13:47:52.338 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+09-06-2021 20:49:44.241 [main] INFO  r.g.book.market.OrderServiceTest.logStarting - Starting OrderServiceTest using Java 15.0.1 on PC with PID 488 (started by Андрей in D:\2021\Java\book-market\book_market)
+09-06-2021 20:49:44.244 [main] INFO  r.g.book.market.OrderServiceTest.logStartupProfileInfo - The following profiles are active: test
+09-06-2021 20:49:44.283 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c
+09-06-2021 20:49:44.797 [main] INFO  r.g.book.market.OrderServiceTest.logStarted - Started OrderServiceTest in 0.856 seconds (JVM running for 1.681)
+09-06-2021 20:49:44.859 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@21ca139c, started on Wed Jun 09 20:49:44 MSK 2021
